@@ -1,0 +1,9 @@
+header {
+    background-image: url("../images/homebk.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px auto;
+    height: 500px;
+    background-color: white !important;
+    padding-top: 100px;
+}
