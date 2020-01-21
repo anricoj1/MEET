@@ -1,7 +1,7 @@
 <link rel="stylesheet" type="text/css" href="css/nav.css">
-<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="/">
+<nav class="navbar fixed-top navbar-expand-lg toggle-height" id="global-nav">
+    <div class="container">
+        <a class="navbar-brand scrollD" href="/">
             <img src='images/Logo.png' width="100px" height="auto" class="d-inline-block align-top" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,19 +14,20 @@
                     <li></li>
                 </ul>
                 <ul class="navbar-nav">
-                    <li><a class="nav-link scrollN" href="/logout">Logout</a></li>
-                    <li><a class="nav-link scrollN" href="/profile">Profile</a></li>
+                    <li><a class="nav-link scrollD" href="/logout">Logout</a></li>
+                    <li><a class="nav-link scrollD" href="/profile">Profile</a></li>
                 </ul>
            <% } else { %>
                 <ul class="navbar-nav mr-auto">
                     <li></li>
                 </ul>
                 <ul class="navbar-nav">
-                    <li><a class="nav-link scrollN" href="/login">Login</a></li>
-                    <li><a class="nav-link scrollN" href="/signup">Register</a></li>
-                    <li><a class="nav-link scrollN" href="/"></a></li>
+                    <li><a class="nav-link scrollD" href="/login">Login</a></li>
+                    <li><a class="nav-link scrollD" href="/signup">Register</a></li>
+                    <li><a class="nav-link scrollD" href="/"></a></li>
                 </ul>
            <% } %>
         </div>
     </div>
 </nav>
+<script type="text/javascript" src="scripts/nav.js"></script>

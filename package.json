@@ -1,14 +1,22 @@
 {
-  "name": "meetup",
-  "version": "1.0.0",
-  "description": "",
+  "name": "meet",
+  "version": "0.0.1",
+  "description": "Nodejs MEET",
   "main": "server.js",
   "scripts": {
     "test": "nodemon server",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anricoj1/MEET.git"
+  },
   "author": "Jason Anrico",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anricoj1/MEET/issues"
+  },
+  "homepage": "https://github.com/anricoj1/MEET#readme",
   "dependencies": {
     "bcrypt": "^3.0.7",
     "body-parser": "^1.19.0",

@@ -1,9 +1,18 @@
-header {
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: "Avenir Next" !important;
+}
+
+.indexImg {
     background-image: url("../images/homebk.png");
+    height: 100%;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 20px auto;
-    height: 500px;
-    background-color: white !important;
-    padding-top: 100px;
+}
+
+.homeContainer {
+    font-family: "Avenir Next";
+    color: white;
 }
